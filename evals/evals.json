@@ -1,0 +1,23 @@
+{
+  "skill_name": "project-absorber",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有个Python写的CLI工具，叫 myctl，功能是管理本地的Docker容器。帮我运行大吞噬器，看看同类开源项目有哪些值得借鉴的地方",
+      "expected_output": "应触发 project-absorber，从Phase 1开始：扫描项目结构，建立自我画像，输出项目类型（CLI工具/Python），然后生成竞品搜索关键词并开始Phase 2搜索",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我分析这几个竞品，看看有什么好的设计可以加到我们项目里：https://github.com/tiangolo/typer https://github.com/pallets/click",
+      "expected_output": "应触发 project-absorber，跳过Phase 2（用户已提供竞品），直接进入Phase 3对两个仓库做深度分析，按8个维度输出可吸收特性清单",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "继续吸收，上次做到PA-003了",
+      "expected_output": "应触发 project-absorber，读取 absorber-workspace/ABSORPTION_PLAN.md，找到PA-004（第一个未完成项），输出实施前说明并等待用户确认",
+      "files": []
+    }
+  ]
+}

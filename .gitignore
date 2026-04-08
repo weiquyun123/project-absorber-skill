@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Absorber runtime artifacts (generated per-project, not part of the skill)
+absorber-workspace/
+/tmp/absorber/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Packaging output
+*.skill
